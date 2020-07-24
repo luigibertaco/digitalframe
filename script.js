@@ -24,6 +24,11 @@ function nextImage(image){
   image.css("background-image", "url(" + imageURL + ")")
 }
 
+function toggleMenu(){
+  $("#menu-bar").toggle();
+}
+
+
 $(document).ready(function(){
   image = $("#image");
   documentWidth = $( document ).width();
